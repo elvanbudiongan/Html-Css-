@@ -1,0 +1,118 @@
+body {
+    font-family: verdana ;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+#topnav{
+    background-color: skyblue;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.favlogo{
+    width: 80px;
+    height: 80px;
+}
+
+
+#topnav  a, #topnav img{
+    margin: 5px 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+}
+
+#master{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+
+footer{
+    padding: 10px;
+    background-color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0 px;
+    list-style: none;
+}
+
+
+
+.footer ul {
+    display: flex; /* Use flexbox to lay out the items */
+    justify-content: center; /* Center the items horizontally */
+    padding: 0; /* Remove default padding */
+}
+
+.footer li {
+    margin: 0 30px; /* Add some space between icons */
+}
+
+.footer img {
+    width: 25px;
+    height: 30px; /* Maintain aspect ratio */
+}
+
+.copyright{
+    text-align: center;
+}
+
+/* Set up the grid layout for the section */
+#body {
+    display: grid;
+    grid-template-columns: 2fr 2fr; /* Three columns with different widths */
+    gap: 10px; /* Add space between the columns */
+    align-items: start; /* Align items to the start of each grid cell */
+    background-color: #f9ecec;
+}
+
+/* Style for block1 */
+.block1 {
+    grid-column: 1 / 2; /* Span the first column */
+    border: 1px solid;
+    margin: 10px 10px;
+    height: 250px;
+    background-color: #c8d9eb;
+}
+
+/* Style for #right paragraph */
+#right {
+    grid-column: 2 / 2; /* Span the second column */
+    text-align: justify;
+    margin: 10px 20px;
+}
+
+/* Style for block2 */
+.block2 {
+    grid-column: 2 / 2; 
+    grid-row: 2/2;
+    border: 1px solid;
+    margin: 10px 10px;
+    height: 250px;
+    background-color: #c8d9eb;
+}
+
+/* Style for #left paragraph */
+#left {
+    grid-column: 1 / 2; /* Span the first column */
+    grid-row: 2 / 2; /* Place it in the second row */
+    text-align: justify;
+    margin: 10px 20px;
+}
+
+
+
